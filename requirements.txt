@@ -1,0 +1,9 @@
+boto3
+sentencepiece
+pandas
+anthropic
+uuid
+transformers
+tiktoken
+langchain
+s3fs
