@@ -45,6 +45,7 @@ We recommend running this notebook in Amazon SageMaker Studio. For that, you mus
 ```
 git clone https://github.com/aws-samples/query-databases-with-natural-language.git
 ```
+Open the _query-amazon-redshift-with-mixtral-8x7B-instruct.ipynb_ notebook to run through it.
 
 ## Solution Architecture
 
