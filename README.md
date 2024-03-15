@@ -40,6 +40,12 @@ ORDER BY Q.total_quantity desc;
 
 If you get successful responses, it means that you have correctly loaded the database data onto the cluster. The query editor allows saving, scheduling and sharing queries. You can also view query plans, execution details and monitor query performance.
 
+We recommend running this notebook in Amazon SageMaker Studio. For that, you must first set up a [SageMaker domain](https://docs.aws.amazon.com/sagemaker/latest/dg/sm-domain.html), making sure it has the appropriate permissions to interact with Amazon Redshift. Then, [clone this GitHub repository into SageMaker Studio Classic](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-tasks-git.html) with the following command:
+
+```
+git clone https://github.com/aws-samples/query-databases-with-natural-language.git
+```
+
 ## Solution Architecture
 
 ![](docs/architecture1.png)
