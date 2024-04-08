@@ -1,6 +1,6 @@
 # Transforming the Way We Talk to Databases: Using Everyday Language to Search and Retrieve Data with Mixtral 8x7B
 
-This project enables interacting with relational databases through Natural Language. Specifically, it uses the sparse Mixture of Experts (MoE) model Mixtral 8x7B Instruct, for generating SQL queries, and interpreting their corresponding tabular results to return to the user as answers. The application leverages SageMaker hosting tools to serve the model, which is deployed with a few clicks from SageMaker JumpStart. For more details, please refer to [this blogpost]().
+This project enables interacting with relational databases through Natural Language. Specifically, it uses the sparse Mixture of Experts (MoE) model Mixtral 8x7B Instruct, for generating SQL queries, and interpreting their corresponding tabular results to return to the user as answers. The application leverages SageMaker hosting tools to serve the model, which is deployed with a few clicks from SageMaker JumpStart. For more details, please refer to [this blogpost](https://aws.amazon.com/blogs/machine-learning/use-everyday-language-to-search-and-retrieve-data-with-mixtral-8x7b-on-amazon-sagemaker-jumpstart/).
 
 ## Setup Requirements
 
@@ -73,4 +73,4 @@ The end-to-end flow is as follows:
 
 4. Tabular results received are passed back to the LLM for interpretation and to convert them into a natural language response to the user's original question.
 
-For a step-by-step walk-through of the implementation, please check out the [reference blogpost]().
+For a step-by-step walk-through of the implementation, please check out the [reference blogpost](https://aws.amazon.com/blogs/machine-learning/use-everyday-language-to-search-and-retrieve-data-with-mixtral-8x7b-on-amazon-sagemaker-jumpstart/).
