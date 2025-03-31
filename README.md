@@ -1,10 +1,10 @@
-# Transforming the Way We Talk to Databases: Using Everyday Language to Search and Retrieve Data with Mixtral 8x7B
+# Transforming the Way We Talk to Databases: Using Everyday Language to Search and Retrieve Data with Mistral Small
 
-This project enables interacting with relational databases through Natural Language. Specifically, it uses the sparse Mixture of Experts (MoE) model Mixtral 8x7B Instruct, for generating SQL queries, and interpreting their corresponding tabular results to return to the user as answers. The application leverages SageMaker hosting tools to serve the model, which is deployed with a few clicks from SageMaker JumpStart. For more details, please refer to [this blogpost](https://aws.amazon.com/blogs/machine-learning/use-everyday-language-to-search-and-retrieve-data-with-mixtral-8x7b-on-amazon-sagemaker-jumpstart/).
+This project enables interacting with relational databases through Natural Language. Specifically, it uses the sparse Mixture of Experts (MoE) model Mistral Small, for generating SQL queries, and interpreting their corresponding tabular results to return to the user as answers. The application leverages SageMaker hosting tools to serve the model, which is deployed with a few clicks from SageMaker JumpStart. For more details, please refer to [this blogpost](https://aws.amazon.com/blogs/machine-learning/use-everyday-language-to-search-and-retrieve-data-with-mixtral-8x7b-on-amazon-sagemaker-jumpstart/).
 
 ## Setup Requirements
 
-You can currently deploy Mixtral 8x7B on SageMaker Jumpstart with one click. Amazon SageMaker JumpStart provides a simplified way to access and deploy over 100 different open source and third-party foundation models. In order to [launch an endpoint to host Mixtral 8x7B from SageMaker JumpStart](https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-deploy.html), you may need to request a service quota increase to access an **ml.g5.48xlarge instance for endpoint usage**. You can easily [request service quota increases](https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html) through the AWS console, CLI, or API to get access.
+You can currently deploy Mistral Small on SageMaker Jumpstart with one click. Amazon SageMaker JumpStart provides a simplified way to access and deploy over 100 different open source and third-party foundation models. In order to [launch an endpoint to host Mistral Small from SageMaker JumpStart](https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-deploy.html), you may need to request a service quota increase to access an **ml.g5.48xlarge instance for endpoint usage**. You can easily [request service quota increases](https://docs.aws.amazon.com/servicequotas/latest/userguide/request-quota-increase.html) through the AWS console, CLI, or API to get access.
 
 You will also need access to a relational data source. Amazon Redshift is used as the primary data source in this post with the [TICKIT database](https://docs.aws.amazon.com/redshift/latest/dg/c_sampledb.html). This database helps analysts track sales activity for the fictional TICKIT web site, where users buy and sell tickets online for sporting events, shows, and concerts.
 
@@ -45,7 +45,7 @@ We recommend running this notebook in Amazon SageMaker Studio. For that, you mus
 ```
 git clone https://github.com/aws-samples/query-databases-with-natural-language.git
 ```
-Open the _query-amazon-redshift-with-mixtral-8x7B-instruct.ipynb_ notebook to run through it.
+Open the _query-amazon-redshift-with-mistral-small-instruct.ipynb_ notebook to run through it.
 
 ## Solution Architecture
 
